@@ -1,0 +1,71 @@
+/* =========================
+   Global Styles
+========================= */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #bdbdbd; /* Grey outer background */
+    display: flex;
+    justify-content: center;
+}
+
+/* Constrained content width */
+.container {
+    background-color: #ffffff;
+    max-width: 850px;
+    padding: 60px 70px;
+    margin: 40px 20px;
+    border-radius: 25px;
+}
+
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    color: #2f8f1f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    color: #2f8f1f;
+    text-align: center;
+    margin-top: 0;
+}
+
+.section-title {
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   Highlight Section
+========================= */
+
+.highlight {
+    background-color: #3c9a18;
+    color: #ffffff;
+    padding: 35px;
+    border-radius: 25px;
+    margin: 50px 0;
+}
+
+.highlight h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
