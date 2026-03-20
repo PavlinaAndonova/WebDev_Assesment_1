@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #e6e6e6;
+    color: #000;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+/* Navigation using Flexbox */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+/* INTRO SECTION */
+
+.intro {
+    display: flex;              /* Flexbox layout */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+
+}
+
+.text {
+    flex: 1;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 20px;  /* space after each paragraph */
+}
+
+.feature-image {
+    flex: 0 0 40%;
+}
+
+.feature-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ===============================
+   GALLERY SECTION
+================================ */
+
+/* Flexbox wrapping layout */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Same height for all media */
+.gallery img,
+.gallery video {
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+/* ---- ROW 1 ---- */
+
+.gallery :nth-child(1) {
+    flex: 0 0 65%;
+}
+
+
+.gallery :nth-child(2) {
+    flex: 0 0 35%;
+}
+
+/* ---- ROW 2 ---- */
+
+.gallery :nth-child(3) {
+    flex: 0 0 35%;
+}
+
+.gallery :nth-child(4) {
+    flex: 0 0 65%;
+}
+
+/* ---- ROW 3 ---- */
+
+.gallery :nth-child(5) {
+    flex: 0 0 65%;
+}
+
+.gallery :nth-child(6) {
+    flex: 0 0 35%;
+}
