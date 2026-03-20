@@ -1,0 +1,144 @@
+/* General */
+
+body{
+    background:#fff5b8;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: black
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.top-header{
+    position:relative;
+    padding: 20px;
+    background-color: #ffb16e;
+    border-radius: 40px;
+
+}
+
+/* Decorative banner */
+
+.decor{
+    width:400px;
+    height:60px;
+    display:block;
+    margin:auto;
+    margin-bottom: 5px;
+}
+
+
+/* Navigation under the decor image */
+
+.main-nav ul{
+    list-style:none;
+    padding:0;
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.main-nav a{
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
+    font-size: 18px;
+    margin-bottom:0 10px;
+}
+
+h2{
+    text-align:center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Cart */
+
+/* Cart */
+
+.cart-container{
+    position:absolute;
+    right:40px;
+    top:40px;
+}
+
+.cart{
+    width:35px;
+}
+
+#cart-count{
+    background:red;
+    color:white;
+    font-size:12px;
+    padding:3px 6px;
+    border-radius:50%;
+    position:absolute;
+    top:-8px;
+    right:-10px;
+}
+
+/* Gallery */
+
+.gallery{
+    width:800px;
+    margin:auto;
+    padding: 2rem 1rem;
+}
+
+.photo-card{
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.photo-card img{
+   width: 100%;
+}
+
+.caption{
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    padding:10px;
+    margin-top: 1px;
+    margin-bottom: 2rem;
+
+    
+}
+
+button{
+    font-size:16px;
+    padding: 8px 8px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;  
+    margin-top: 30px;  
+    position: relative;
+    right: -600px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: auto;       /* pushes footer to bottom */
+    padding-left: 120px; 
+    position:relative;
+    padding: 20px;
+    background-color: #ffb16e;
+    border-radius: 40px;    /* keeps it slightly from the left edge */
+}
+
